@@ -2,7 +2,9 @@
   margin:0px;
   padding:0px;
 }
-
+body {
+  background-color: "#F5F2F0";
+}
 .noto-sans-200 {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -91,7 +93,7 @@ p {
   font: 30px Roboto, sans-serif;
 }
 div {
-  display: inline-block
+  display: inline-block;
   width: 400px;
   margin: 50px auto;
 }
