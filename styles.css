@@ -83,15 +83,17 @@
   font-style: italic;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
 
 p {
   display: inline;
-  width: 400px;
   margin: 50px auto;
   font: 30px Roboto, sans-serif;
+}
+div {
+  display: inline-block
+  width: 400px;
+  margin: 50px auto;
+}
+img {
+   width: 150px;
 }
