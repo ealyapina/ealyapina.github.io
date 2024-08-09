@@ -86,22 +86,23 @@ body {
 }
 
 h1 {
+  width: 800px;
   display:block;
   text-align: center;
   margin: 50px auto;
-  font: 40px "noto-sans-200", sans-serif;
+  font: 30px "noto-sans-200", sans-serif;
 }
 h2 {
   display: block;
   text-align: center;
   margin: 50px auto;
-  font: 30px "Roboto-bold", sans-serif;
+  font: 20px "roboto-bold", sans-serif;
 }
 p {
   display: block;
   text-align: center;
   margin: 50px auto;
-  font: 20px "Roboto-regular", sans-serif;
+  font: 14px "roboto-regular", sans-serif;
 }
 div {
   display: inline-block;
