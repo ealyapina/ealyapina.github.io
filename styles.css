@@ -85,12 +85,23 @@ body {
   font-style: italic;
 }
 
-
+h1 {
+  display:block;
+  text-align: center;
+  margin: 50px auto;
+  font: 40px "noto-sans-200", sans-serif;
+}
+h2 {
+  display: block;
+  text-align: center;
+  margin: 50px auto;
+  font: 30px "Roboto-bold", sans-serif;
+}
 p {
   display: block;
   text-align: center;
   margin: 50px auto;
-  font: 30px Roboto, sans-serif;
+  font: 20px "Roboto-regular", sans-serif;
 }
 div {
   display: inline-block;
