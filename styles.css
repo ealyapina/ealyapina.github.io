@@ -113,11 +113,16 @@ div {
 img {
    width: 150px;
 }
+nav
+{
+    margin: 100px auto;
+}
 nav ul
 {
   display:flex;
   flex-direction:row;
   justify-content: space-between;
+  list-style-type:None;
 }
 nav a
 {
