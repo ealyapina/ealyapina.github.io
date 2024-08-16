@@ -134,6 +134,7 @@ nav a
 }
 header
 {
+  background: #E4E1DE url("images/tile.png");
   text-align: center;
   margin: 50px auto;
   font: 21px "noto-sans-200", sans-serif;
