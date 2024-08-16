@@ -5,13 +5,7 @@
 body {
   background: #F5F2F0;
 }
-nav a
-{
-  display: inline-block;
-  text-align: center;
-  margin: 50px auto;
-  font: 21px "roboto-regular", sans-serif;
-}
+
 .noto-sans-200 {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
@@ -118,4 +112,18 @@ div {
 }
 img {
    width: 150px;
+}
+nav a
+{
+  display: inline-block;
+  text-align: center;
+  text-decoration: None;
+  margin: 50px auto;
+  font: 21px "roboto-regular", sans-serif;
+}
+header
+{
+  text-align: center;
+  margin: 50px auto;
+  font: 21px "noto-sans-200", sans-serif;
 }
