@@ -113,6 +113,12 @@ div {
 img {
    width: 150px;
 }
+nav ul
+{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
 nav a
 {
   display: inline-block;
