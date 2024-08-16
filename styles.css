@@ -105,10 +105,11 @@ p {
   margin: 50px auto;
   font: 14px "roboto-regular", sans-serif;
 }
-div {
+main div {
   display: inline-block;
   width: 400px;
   margin: 50px auto;
+  border:10px solid rgba(0, 0, 0, 0.4);
 }
 img {
    width: 150px;
