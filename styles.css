@@ -5,6 +5,13 @@
 body {
   background: #F5F2F0;
 }
+nav a
+{
+  display: inline-block;
+  text-align: center;
+  margin: 50px auto;
+  font: 21px "roboto-regular", sans-serif;
+}
 .noto-sans-200 {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
