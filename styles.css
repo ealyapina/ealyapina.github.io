@@ -139,3 +139,7 @@ header
   margin: 50px auto;
   font: 21px "noto-sans-200", sans-serif;
 }
+main {
+  tex-align:center;
+  
+}
