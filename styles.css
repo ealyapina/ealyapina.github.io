@@ -9,7 +9,7 @@ body {
 .noto-sans-200 {
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200>;
+  font-weight: 200;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -90,29 +90,36 @@ h1 {
   width: 800px;
   display:block;
   text-align: center;
-  margin: 50px auto;
+  margin: 20px auto;
   font: 30px "noto-sans-200", sans-serif;
 }
 h2 {
   display: block;
   text-align: center;
-  margin: 50px auto;
+  margin: 10px auto;
   font: 20px "roboto-bold", sans-serif;
 }
 p {
   display: block;
-  text-align: center;
-  margin: 50px auto;
+  margin: 10px auto;
   font: 14px "roboto-regular", sans-serif;
 }
-main div {
+div.main {
   display: inline-block;
+  background:white;
   width: 400px;
-  margin: 50px auto;
-  border:10px ridge rgba(0, 0, 0, 0.4);
+  min-height:300px;
+  margin: 30px;
+  border:10px inset white;
+  border-radius: 5px;
 }
+
+
+
 img {
    width: 150px;
+   min-height:150px;
+    padding:10px;
 }
 nav
 {
@@ -143,4 +150,17 @@ header
 main {
   text-align:center;
   
+}
+button{
+  background: #E4E1DE url("images/tile.png");
+  font: 14px "noto-sans-200", sans-serif;
+  min-height:100px;
+  min-width:200px;
+
+  padding:5px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
