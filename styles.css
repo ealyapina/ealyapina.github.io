@@ -87,7 +87,6 @@ body {
 }
 
 h1 {
-  width: 800px;
   display:block;
   text-align: center;
   margin: 20px auto;
@@ -104,14 +103,18 @@ p {
   margin: 10px auto;
   font: 14px "roboto-regular", sans-serif;
 }
+div.box{
+    display: inline-block;
+    border:7px outset #d6cac2;
+    margin: 30px;
+}
 div.main {
-  display: inline-block;
+
   background:white;
   width: 400px;
   min-height:300px;
-  margin: 30px;
-  border:10px inset white;
-  border-radius: 5px;
+
+  border:7px inset #d6cac2;
 }
 
 
@@ -123,7 +126,7 @@ img {
 }
 nav
 {
-    margin: 100px auto;
+    margin: 10px auto;
 }
 nav ul
 {
@@ -134,10 +137,14 @@ nav ul
 }
 nav a
 {
+  background: #FFFFFF88;
+  border: hidden;
+  border-radius: 5px;
   display: inline-block;
   text-align: center;
   text-decoration: None;
   margin: 50px auto;
+  padding: 10px;
   font: 21px "roboto-regular", sans-serif;
 }
 header
