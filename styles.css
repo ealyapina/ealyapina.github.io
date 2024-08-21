@@ -116,7 +116,20 @@ div.main {
 
   border:7px inset #d6cac2;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  div.box{
+    display: inline-block;
+    margin: 10px;
+}
+    div.main {
 
+  background:white;
+  width: 90%;
+
+  border:8px ridge #d6cac2;
+}
+}
 
 
 img {
@@ -149,6 +162,7 @@ nav a
 }
 header
 {
+  width: 100%;
   background: #E4E1DE url("images/tile.png");
   text-align: center;
   margin: 50px auto;
@@ -163,7 +177,7 @@ button{
   font: 14px "noto-sans-200", sans-serif;
   min-height:100px;
   min-width:200px;
-
+  border: 15px ridge;
   padding:5px;
 }
 .flex {
