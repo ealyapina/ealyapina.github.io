@@ -1,7 +1,7 @@
 <!doctype HTML>
 <html lang="en">
   <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, charset=utf8">
   <LINK href="styles.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="images/Picture2.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,9 +20,15 @@
     </header>
   <main id="mainContent">
     <h1>Identify Cognitive Distortions</h1>
-    <p>This is a quiz-like game about identifying cognitive distortions. It will describe the situations, the thoughts of its participant and the list of cognitive distortions to choose from.</p>
-    <button onclick="location.href='tutorial.html'">Read the tutorial</button>
-    <button onclick="location.href='question0.html'">Play the game</button>
-  </main>
+      <div class="flex"><div class="main">
+<p class="fact">
+{{Situation description}}</p>
+<p class="thought">{{Thoughts description}}</p></div>
+
+      <div class="main">
+          <p class="fact">{Explanation}</p>
+          <form action='question1.html'> <input type="submit" value="Next question"></input></form>
+      </div></div>
+</main>
 </body>
-    </html>
+</html>

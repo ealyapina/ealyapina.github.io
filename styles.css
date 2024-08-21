@@ -103,31 +103,37 @@ p {
   margin: 10px auto;
   font: 14px "roboto-regular", sans-serif;
 }
-div.box{
-    display: inline-block;
-    border:7px outset #d6cac2;
-    margin: 30px;
+p.thought {
+  text-align:left;
+    margin-left: 15px;
+  border-left: solid #ccb3c2;
+    background: rgba(80%,70.2%,76.1%,50%);
+}
+p.fact {
+    
+  text-align:left;
+  margin-left: 5px;
 }
 div.main {
-
+  display: inline-block;
+  border:15px ridge #d6cac2;
+  margin: 30px;
   background:white;
   width: 400px;
   min-height:300px;
-
-  border:7px inset #d6cac2;
+      padding: 10px;
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  div.box{
+ 
+  div.main {
     display: inline-block;
     margin: 10px;
-}
-    div.main {
-
   background:white;
   width: 90%;
-
   border:8px ridge #d6cac2;
+      
+      padding: 10px;
 }
 }
 
@@ -165,7 +171,7 @@ header
   width: 100%;
   background: #E4E1DE url("images/tile.png");
   text-align: center;
-  margin: 50px auto;
+  padding: 20px;
   font: 21px "noto-sans-200", sans-serif;
 }
 main {
@@ -173,15 +179,31 @@ main {
   
 }
 button{
-  background: #E4E1DE url("images/tile.png");
-  font: 14px "noto-sans-200", sans-serif;
+  background: #E4E1DE;
+  font: 18px "noto-sans-200", sans-serif;
   min-height:100px;
   min-width:200px;
-  border: 15px ridge;
-  padding:5px;
+  border: 15px outset #E4E1DE;
+  padding:5px; 
+  margin: 5px;
 }
 .flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+form{
+    text-align:left;
+    font: 14px "noto-sans-200", sans-serif;
+}
+input[type=submit]{
+    display:block;
+    text-align:center;
+    font: 18px;
+    padding: 5px;
+    width: 100%;
+}
+input[type=radio]{
+    margin: 5px;
+    text-align:left;
 }
