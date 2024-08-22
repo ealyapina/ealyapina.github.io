@@ -153,13 +153,19 @@ div.main {
 }
 }
 img {
-   width: 150px;
-   min-height:150px;
+   
    padding:10px;
    border: hidden;
    border-bottom: #ccb3c2 1px;
    border-radius:10px;
    background-color: white;
+}
+header img{
+  height:10px;
+}
+main img{
+  width: 150px;
+  min-height:150px;
 }
 nav
 {
