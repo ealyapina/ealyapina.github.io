@@ -114,6 +114,10 @@ p.fact {
   text-align:left;
   margin-left: 5px;
 }
+h2.fact{
+  text-align:left;
+  margin-left: 5px;
+}
 div.main {
   display: inline-block;
   border:15px ridge #d6cac2;
@@ -126,22 +130,36 @@ div.main {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
  
+  /* For mobile phones: */
+ 
+  div.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
   div.main {
     display: inline-block;
     margin: 10px;
-  background:white;
-  width: 90%;
-  border:8px ridge #d6cac2;
-      
-      padding: 10px;
+    background: #E4E1DE;
+    width: 90%;
+    border:8px ridge #d6cac2;   
+    padding: 10px;
 }
 }
 
+div.grid {
+  display: grid;
+  grid-template-columns: 40%40%;
+}
 
 img {
    width: 150px;
    min-height:150px;
-    padding:10px;
+   padding:10px;
+   border: hidden;
+   border-bottom: #ccb3c2 1px;
+   border-radius:10px;
+   background-color: white;
 }
 nav
 {
@@ -156,8 +174,8 @@ nav ul
 }
 nav a
 {
-  background: #FFFFFF88;
-  border: hidden;
+  background: #FFFFFFDD;
+  border: outset;
   border-radius: 5px;
   display: inline-block;
   text-align: center;
