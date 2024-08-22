@@ -130,8 +130,6 @@ div.main {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
  
-  /* For mobile phones: */
- 
   div.grid {
     display: flex;
     flex-wrap: wrap;
@@ -147,11 +145,13 @@ div.main {
 }
 }
 
-div.grid {
+@media only screen and (min-width: 769px) {
+  /* For large computers */
+  div.grid {
   display: grid;
   grid-template-columns: 40%40%;
 }
-
+}
 img {
    width: 150px;
    min-height:150px;
