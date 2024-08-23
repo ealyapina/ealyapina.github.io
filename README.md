@@ -19,7 +19,7 @@ One of the goals of this site is to serve as an assignment for [CSS course from 
 
 - Update at least one element using the hover pseudo-class. Make sure that the hover property does something interesting. I encourage you to do an internet search on some common transitions and try those.
 
-- Implement the nth-child selector. In my example I used this on the flex page where I gave every other image a different border-radius. Don't forget, if you are styling an advanced selector it can be a little trickier to use the pseudo-classes. Work slowly and carefully.
+- ✅ Implement the nth-child selector. In my example I used this on the flex page where I gave every other image a different border-radius. Don't forget, if you are styling an advanced selector it can be a little trickier to use the pseudo-classes. Work slowly and carefully.
 
 - Validate your code using [WAVE][2]  or the wave browser extension.
 

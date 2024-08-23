@@ -120,12 +120,12 @@ h2.fact{
 }
 div.main {
   display: inline-block;
-  border:15px ridge #d6cac2;
+  border:15px ridge;
   margin: 30px;
   background:#E4E1DE;
   width: 400px;
   min-height:300px;
-      padding: 10px;
+  padding: 10px;
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -136,12 +136,9 @@ div.main {
     justify-content: space-evenly;
 }
   div.main {
-    display: inline-block;
     margin: 10px;
-    background: #E4E1DE;
     width: 90%;
-    border:8px ridge #d6cac2;   
-    padding: 10px;
+    border-width:8px;
 }
 }
 
@@ -152,6 +149,14 @@ div.main {
   grid-template-columns: 40%40%;
 }
 }
+
+div.main:nth-child(odd){
+  border-color:#d6cac2;
+ }
+ div.main:nth-child(even){
+  border-color:#ccb3c2;
+ }
+ 
 img {
    
    padding:10px;
