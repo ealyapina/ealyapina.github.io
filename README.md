@@ -7,7 +7,7 @@ One of the goals of this site is to serve as an assignment for [CSS course from 
 
 - Validate your html using the w3validator.
 
-- Use the position property and the focus pseudo-class to style your "Skip to Main Content" link.  It should only be visible when the link is in focus.
+- ✅ Use the position property and the focus pseudo-class to style your "Skip to Main Content" link.  It should only be visible when the link is in focus.
 
 - ✅ Style your navigation in an attractive fashion – use at least three CSS properties.
 
@@ -17,7 +17,7 @@ One of the goals of this site is to serve as an assignment for [CSS course from 
 
 - ✅ Apply the flex property to at least one parent element. The navigation bar is one place to use flex. You can also use it on images if you would like.
 
-- Update at least one element using the hover pseudo-class. Make sure that the hover property does something interesting. I encourage you to do an internet search on some common transitions and try those.
+- ✅ Update at least one element using the hover pseudo-class. Make sure that the hover property does something interesting. I encourage you to do an internet search on some common transitions and try those.
 
 - ✅ Implement the nth-child selector. In my example I used this on the flex page where I gave every other image a different border-radius. Don't forget, if you are styling an advanced selector it can be a little trickier to use the pseudo-classes. Work slowly and carefully.
 

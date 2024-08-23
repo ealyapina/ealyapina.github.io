@@ -122,25 +122,31 @@ div.main {
   display: inline-block;
   border:15px ridge;
   margin: 30px;
-  background:#E4E1DE;
+  background:white;
   width: 400px;
   min-height:300px;
-  padding: 10px;
+      padding: 10px;
 }
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
  
-  div.grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
   div.main {
     margin: 10px;
-    width: 90%;
-    border-width:8px;
+  background:white;
+  width: 90%;
+  border-width:8px;   
+  padding: 10px;
 }
-}
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}}
+
+
+  
+
+
 
 @media only screen and (min-width: 769px) {
   /* For large computers */
@@ -183,17 +189,51 @@ nav ul
   justify-content: space-around;
   list-style-type:None;
 }
+a#jump{
+  position:fixed;
+  opacity:0%;   
+  color: white;
+  padding:10px;
+  background: navy;
+  border-radius: 5px;
+  border-color:green;
+  font: 21px "roboto-regular", sans-serif;      
+  border-width: 3px;
+}
+a#jump:focus{
+  opacity:100%;
+
+}
 nav a
 {
-  background: #FFFFFFDD;
-  border: outset;
+  color:navy;
+  background: #FFFFFF66;
+  border: hidden;
   border-radius: 5px;
   display: inline-block;
   text-align: center;
   text-decoration: None;
-  margin: 50px auto;
+  margin: 55px auto;
   padding: 10px;
   font: 21px "roboto-regular", sans-serif;
+}
+nav a:hover
+{
+  background: #FFFFFF;
+  border-width: 3px;
+  margin: 52px auto;
+  border-color: navy;
+  border-style: solid;
+  border-radius: 0px;
+}
+nav a:focus
+{
+  background: #FFFFFF; 
+  margin: 50px auto;   
+  border-color: navy;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 5px;
 }
 header
 {
