@@ -12,9 +12,9 @@ Once you have completed your assignment you will complete peer reviews.  Because
 
 - ✅ Update the code to use six images of your choice, making sure to include alternative text for each.
 
-- Validate your site on The W3C Markup Validation Service.
+- ✅ Validate your site on The W3C Markup Validation Service.
 
-- Validate your site using the Wave validator site or browser extension.
+- ✅ Validate your site using the Wave validator site or browser extension.
 
 - Validate your site using the aXe browser extension.
 
