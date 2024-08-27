@@ -2,7 +2,7 @@ function upDate(previewPic){
 
     let altText = previewPic.alt;
     let source = previewPic.src;
-     document.getElementById("image").innerHTML = '<div style="height:100%;background-image:url(' + "'" + source + "');" +'">'+ altText+ '</div>' ;
+    document.getElementById("image").innerHTML = '<div style="height:100%;background-repeat:no-repeat;background-size:cover;background-image:url(' + "'" + source + "');" +'">'+ altText+ '</div>' ;
       }
   
   function unDo(){
