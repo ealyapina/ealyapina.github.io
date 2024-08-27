@@ -16,19 +16,19 @@ Once you have completed your assignment you will complete peer reviews.  Because
 
 - ✅ Validate your site using the Wave validator site or browser extension.
 
-- Validate your site using the aXe browser extension.
+- ✅ Validate your site using the aXe browser extension.
 
-- Add the listeners for onfocus Event  and onblur Event using the same pattern I gave you for the onmouseover Event and onmouseleave Event.  (Don't delete those events though!)
+- ✅ Add the listeners for onfocus Event  and onblur Event using the same pattern I gave you for the onmouseover Event and onmouseleave Event.  (Don't delete those events though!)
 
-- Test your site's functionality for mouse movement.
+- ✅ Test your site's functionality for mouse movement.
 
-- Add the listener for onload – deciding what you want to call the new function
+- ✅ Add the listener for onload – deciding what you want to call the new function
 
-- Add the new function for adding the tabfocus attribute
+- ✅ Add the new function for adding the tabfocus attribute
 
-- Add a console.log message to make sure that your event triggers
-- Write a for loop to loop through each image
-- Add the tabindex attributes
-- Test your site's functionality for keyboard access.
-- Host and share your site
+- ✅ Add a console.log message to make sure that your event triggers
+- ✅ Write a for loop to loop through each image
+- ✅ Add the tabindex attributes
+- ✅ Test your site's functionality for keyboard access.
+- ✅ Host and share your site
 - Complete your peer reviews.
