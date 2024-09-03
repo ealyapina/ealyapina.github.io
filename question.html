@@ -24,13 +24,13 @@
   <main id="mainContent">
     <h1>Identify Cognitive Distortions</h1>
     <button onclick="location.href='tutorial.html'">Read the tutorial first</button>  
-    <div class="grid"><div class="main"><p id="situation" class="fact">
+    <div class="grid"><div class="main">
+      <p id="situation" class="fact">
       Loading <img class="icon" alt="" src="images\Book.gif"> </p>
       <p id="thought"><img class="icon" alt="" src="images\Book.gif"> Loading</p></div>
       
             <div class="main">
       <h2 id="distortion">{{Explanation}}</h2>
-      <button id="nextQuestion" onclick="location.href='question.html'">Next question</button>
       <p id="explain" class="fact">{{Explanation}}</p>
       <form id="radios" action ='javascript:showAnswer()'>
         <fieldset>
@@ -63,7 +63,8 @@
     <label for="q0">No distortion</label><br>
     <input type="submit" value="Check"></fieldset>
       </form>
-            </div></div>
+      
+      <button id="nextQuestion" onclick="location.href='question.html'">Next question</button></div></div>
 
 </main>
 </body>

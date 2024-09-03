@@ -249,12 +249,13 @@ p#explain{
 h2#distortion{
  display:None;
 }
-#nextQuestion{
+button#nextQuestion{
   display:None;
   text-align:center;
   font: 18px;
   padding: 5px;
   width: 100%;
+  height:auto;
   border: 1px solid black;
   margin:none;
 }
