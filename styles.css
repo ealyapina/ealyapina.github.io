@@ -254,7 +254,10 @@ h2#distortion{
   text-align:center;
   font: 18px;
   padding: 5px;
-  width: 100%;}
+  width: 100%;
+  border: 1px solid black;
+  margin:none;
+}
 
 img.icon{
  height:14px;
