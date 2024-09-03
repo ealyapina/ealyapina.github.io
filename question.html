@@ -1,0 +1,68 @@
+<!doctype HTML>
+<html lang="en">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, charset=utf8">
+  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <link rel="icon" href="images/Picture2.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Whisper&display=swap" rel="stylesheet">
+      <meta name="viewport" content="width=device-width">
+      <script src="game.js"></script>
+      <title>Identify Cognitive Distortions</title>
+  </head>
+<body>
+  <header><h1>Collection of Various Items</h1>
+    <a  id="jump"  href=#mainContent>Jump to main content</a>
+  <nav><ul>
+    <li><a href=index.html>Home</a></li>
+    <li><a href=question0.html>Cognitive Distortions: Game</a></li>
+    <li><a href=tutorial.html>Cognitive Distortions: Quick Reference</a></li>
+  </ul></nav>
+    </header>
+  <main id="mainContent">
+    <h1>Identify Cognitive Distortions</h1>
+    <button onclick="location.href='tutorial.html'">Read the tutorial first</button>  
+    <div class="grid"><div class="main"><p id="situation" class="fact">
+      Loading <img class="icon" alt="" src="images\Book.gif"> </p>
+      <p id="thought"><img class="icon" alt="" src="images\Book.gif"> Loading</p></div>
+      
+            <div class="main">
+      <h2 id="distortion">{{Explanation}}</h2>
+      <button id="nextQuestion" onclick="location.href='question.html'">Next question</button>
+      <p id="explain" class="fact">{{Explanation}}</p>
+      <form id="radios" action ='javascript:showAnswer()'>
+        <input type="radio" id="q1" name="q" value="1">
+      <label for="q1">Magnification and minimization</label><br>
+      <input type="radio" id="q1a" name="q" value="1a">
+      <label for="q1a">Catastrophizing</label><br>
+      <input type="radio" id="q2" name="q" value="2">
+      <label for="q2">Overgeneralization</label><br>
+      <input type="radio" id="q3" name="q" value="3">
+      <label for="q3">Magical thinking</label><br>
+      <input type="radio" id="q4" name="q" value="4">
+      <label for="q4">Personalization</label><br>
+      <input type="radio" id="q5" name="q" value="5">
+      <label for="q5">Jumping to conclusions</label><br>
+      <input type="radio" id="q5a" name="q" value="5a">
+      <label for="q5a">Mind reading</label><br>
+      <input type="radio" id="q5b" name="q" value="5b">
+      <label for="q5b">Fortune telling</label><br>
+      <input type="radio" id="q6" name="q" value="6">
+      <label for="16">Emotional reasoning</label><br>
+      <input type="radio" id="q7" name="q" value="7">
+      <label for="q7">Disqualifying the positive</label><br>
+      <input type="radio" id="q8" name="q" value="8">
+      <label for="q8">“Should” statements</label><br>
+      <input type="radio" id="q9" name="q" value="9">
+      <label for="q9">All-or-nothing thinking</label><br>
+      <input type="radio" id="q0" name="q" value="0">
+      <label for="q0">No distortion</label><br>
+      
+      <input type="submit" value="Check">
+      </form>
+            </div></div>
+
+</main>
+</body>
+</html>

@@ -99,16 +99,24 @@ h2 {
   font: 20px "roboto-bold", sans-serif;
 }
 p {
-  display: block;
   margin: 10px auto;
   font: 14px "roboto-regular", sans-serif;
 }
-p.thought {
+#thought {
   text-align:left;
     margin-left: 15px;
   border-left: solid #ccb3c2;
     background: rgba(80%,70.2%,76.1%,50%);
 }
+p#explain{
+  display:None;
+ }
+h2#distortion{
+  display:None;
+ }
+#nextQuestion{
+ display:None;}
+ 
 p.fact {
     
   text-align:left;
@@ -174,7 +182,7 @@ img {
 header img{
   height:10px;
 }
-main img{
+main>img{
   width: 150px;
   min-height:150px;
 }
@@ -276,3 +284,6 @@ input[type=radio]{
     margin: 5px;
     text-align:left;
 }
+img.icon{
+  height:14px;
+  }
