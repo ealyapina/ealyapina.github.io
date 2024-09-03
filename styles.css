@@ -250,7 +250,11 @@ h2#distortion{
  display:None;
 }
 #nextQuestion{
-display:None;}
+  display:None;
+  text-align:center;
+  font: 18px;
+  padding: 5px;
+  width: 100%;}
 
 img.icon{
  height:14px;
