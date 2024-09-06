@@ -2,6 +2,14 @@
   margin:0px;
   padding:0px;
 }
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+html { font-size: 13px; }}
+
+@media only screen and (min-width: 768px) {
+  /* For desktops */
+html { font-size: 16px; } }
+
 body {
   background: #F5F2F0;
 }
@@ -90,16 +98,16 @@ h1 {
   display:block;
   text-align: center;
   margin: 20px auto;
-  font: 30px "noto-sans-200", sans-serif;
+  font: 2.2rem "noto-sans-200", sans-serif;
 }
 h2 {
   text-align: center;
   margin: 10px auto;
-  font: 20px "roboto-bold", sans-serif;
+  font: 1.5rem "roboto-bold", sans-serif;
 }
 p {
   margin: 10px auto;
-  font: 14px "roboto-regular", sans-serif;
+  font: 1rem "roboto-regular", sans-serif;
 }
 #thought {
   text-align:left;
@@ -121,8 +129,8 @@ div.main {
   min-height:300px;
       padding: 10px;
 }
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+@media only screen and (max-width: 440px) {
+  /* For small mobile phones: */
  
   div.main {
     margin: 10px;
@@ -164,7 +172,7 @@ a#jump{
   background: navy;
   border-radius: 5px;
   border-color:green;
-  font: 21px "roboto-regular", sans-serif;      
+  font: 1.5rem "roboto-regular", sans-serif;      
   border-width: 3px;
 }
 a#jump:focus{
@@ -182,7 +190,7 @@ nav a
   text-decoration: None;
   margin: 55px auto;
   padding: 10px;
-  font: 21px "roboto-regular", sans-serif;
+  font: 1.5rem "roboto-regular", sans-serif;
 }
 nav a:hover
 {
@@ -208,7 +216,7 @@ header
   background: #E4E1DE url("images/tile.png");
   text-align: center;
   padding: 20px;
-  font: 21px "noto-sans-200", sans-serif;
+  font: 1.5rem "noto-sans-200", sans-serif;
 }
 main {
   text-align:center;
@@ -230,12 +238,12 @@ button{
 }
 form{
     text-align:left;
-    font: 14px "noto-sans-200", sans-serif;
+    font: 1rem "noto-sans-200", sans-serif;
 }
 input[type=submit]{
     display:block;
     text-align:center;
-    font: 18px;
+    font: 1.2rem;
     padding: 5px;
     width: 100%;
 }
@@ -252,7 +260,7 @@ h2#distortion{
 button#nextQuestion{
   display:None;
   text-align:center;
-  font: 18px;
+  font: 1.2rem;
   padding: 5px;
   width: 100%;
   height:auto;
@@ -261,7 +269,7 @@ button#nextQuestion{
 }
 
 img.icon{
- height:14px;
+ height:1rem;
  padding:none;
  margin: none;
  }
