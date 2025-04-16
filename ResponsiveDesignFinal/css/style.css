@@ -22,7 +22,10 @@ h2{
 li{
     margin-top: 20px;
 }
-
+#code
+{
+    font-family: 'Courier New';
+}
 img{
     
     border: 5px solid blue;
